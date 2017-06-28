@@ -16,6 +16,21 @@ module.exports = app => {
       });
       return newsList.map(res => res.data);
     }
+    * getUser(uid = 1) {
+      const user = yield app.mysql.get('user', {
+        id: uid,
+      });
+      return {
+        user,
+      };
+    }
+
+    * addUser(data) {
+      const user = yield app.mysql.insert('user', data);
+      return user.affectedRows === 1 && user;
+    }
   }
+
+
   return NewsService;
 };

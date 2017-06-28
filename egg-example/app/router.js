@@ -2,5 +2,7 @@
 
 module.exports = app => {
   app.get('/', 'home.index');
-  app.get('/news', app.controller.news.list);
+  app.resources('topics', '/api/v2/topics', 'topics');
+  require('./router/news.js')(app);
+  require('./router/util.js')(app);
 };
