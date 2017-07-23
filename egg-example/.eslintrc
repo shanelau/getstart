@@ -1,0 +1,13 @@
+{
+  "extends": "eslint-config-egg",
+  "globals": {
+    "module": true
+  },
+  "env":{
+    "node": true
+  },
+  "rules":{
+    "no-unused-vars" :"warn",
+    "strict": "off"
+  }
+}

@@ -1,0 +1,1 @@
+docker run -p 8086:8086 -p 8083:8003 -p 2003:2003 INFLUXDB_REPORTING_DISABLED=true -v influxdb:/var/lib/influxdb influxdb

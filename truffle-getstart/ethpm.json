@@ -1,0 +1,16 @@
+{
+  "package_name": "adder-test",
+  "version": "0.0.1",
+  "description": "Simple contract to add two numbers",
+  "authors": [
+    "Shane <shanejs@163.com>"
+  ],
+  "keywords": [
+    "ethereum",
+    "addition"
+  ],
+  "dependencies": {
+    "owned": "^0.0.1"
+  },
+  "license": "MIT"
+}

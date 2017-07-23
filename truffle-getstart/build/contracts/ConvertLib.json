@@ -1,0 +1,44 @@
+{
+  "contract_name": "ConvertLib",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "amount",
+          "type": "uint256"
+        },
+        {
+          "name": "conversionRate",
+          "type": "uint256"
+        }
+      ],
+      "name": "convert",
+      "outputs": [
+        {
+          "name": "convertedAmount",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    }
+  ],
+  "unlinked_binary": "0x60606040523415600b57fe5b5b60748061001a6000396000f300606060405263ffffffff60e060020a60003504166396e4ee3d81146020575bfe5b602c600435602435603e565b60408051918252519081900360200190f35b8181025b929150505600a165627a7a72305820c264955ce9c4060986a12d89db5a70234301a906dc41a47822299ee7b32e63e00029",
+  "networks": {
+    "1499927097138": {
+      "events": {},
+      "links": {},
+      "address": "0xb0d54d226f592c7d47db732804f7eb68ff53566e",
+      "updated_at": 1499927566632
+    },
+    "1499946986889": {
+      "events": {},
+      "links": {},
+      "address": "0xecf0014cd21e5d3870f2f5223e4f83a127bcc550",
+      "updated_at": 1499947210108
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1499947210108
+}

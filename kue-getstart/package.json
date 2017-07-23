@@ -1,0 +1,19 @@
+{
+  "name": "kue-getstart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "kue": "^0.11.5",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "should": "^11.2.1"
+  }
+}
