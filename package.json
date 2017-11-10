@@ -1,0 +1,10 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "create-react-app": "^1.4.0",
+    "gulp": "^3.9.1",
+    "gulp-webserver": "^0.9.1"
+  }
+}

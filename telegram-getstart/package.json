@@ -1,0 +1,6 @@
+{
+  "name": "telegram",
+  "dependencies": {
+    "telegraf": "^3.14.0"
+  }
+}
